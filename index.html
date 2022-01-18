@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <main>
+        <section class="form-section">
+            <form class="form">
+                <fieldset class="field-set">
+                    <legend class="legend">This is my form</legend>
+                    <div class="table">
+                        <div>
+
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="password">Password:</label>
+                            <input id="password" type="password" name="password">
+                        </div>
+                        <div>
+                            <label for="cp">Confirm Password:</label>
+                            <input id="cp" type="password" name="confirmPassword">
+                        </div>
+                        <div>
+                            <label for="file">Upload Your picture:</label>
+                            <input id="file" type="file" name="file">
+                        </div>
+                        <div>
+                            <label for="file">Gender:</label>
+
+                            <input type="radio" name="gender" id="g1"><label for="g1">Male</label>
+                            <input type="radio" name="gender" id="g2"><label for="g2">Female</label>
+                        </div>
+                        <div>
+                            <label for="country">Selected Country:</label>
+
+                            <select name="country-list" id="country" class="selected">
+                                <option value="United kingdom" selected>United kingdom</option>
+                                <option value="India">India</option>
+                                <option value="china">china</option>
+                                <option value="USA">USA</option>
+                                <option value="USA">JAPAN</option>
+
+                            </select>
+                        </div>
+                        <div>
+                            <label for="hobby">Hobby:</label>
+
+                            <input type="checkbox" name="cricket" id="cricket"><label for="cricket">Cricket</label>
+                            <input type="checkbox" name="football" id="football"><label for="football">Football</label>
+                        </div>
+                        <div>
+                            <label for="address" class="address address-1">Address</label>
+                            <textarea id="address" rows="8" cols="35"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
